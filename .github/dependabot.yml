@@ -1,0 +1,14 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directories:
+      - "/"
+      - "buildSrc/"
+      - "common/"
+      - "fabric/"
+      - "forge/"
+      - "neoforge/"
+    schedule:
+      interval: "daily"
+      time: "00:00"
+      timezone: "Asia/Tokyo"
